@@ -3,6 +3,7 @@ test
 <script type='text/javascript'>
 	function initEmbeddedMessaging() {
 		try {
+test1
 			embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
  
 			embeddedservice_bootstrap.init(
@@ -14,9 +15,10 @@ test
 				}
 			);
 		} catch (err) {
+test2
 			console.error('Error loading Embedded Messaging: ', err);
 		}
 	};
 </script>
-<script type='text/javascript' src='https://empower--runteam2.sandbox.my.site.com/ESWMENA1712515546676/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
+<script type='text/javascript' src='https://empower--runteam2.sandbox.my.site.com/ESWMENA1712515546676/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'>test3</script>
 </html>
