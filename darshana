@@ -2,7 +2,7 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
 </head>
-test
+test0
 <script type='text/javascript'>
 	function initEmbeddedMessaging() {
 		try {
@@ -18,7 +18,7 @@ test1
 				}
 			);
 		} catch (err) {
-test2
+test11
 			console.error('Error loading Embedded Messaging: ', err);
 		}
 	};
